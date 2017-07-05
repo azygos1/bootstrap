@@ -5,7 +5,7 @@ Bootstrap is a free and open-source front-end web framework for designing websit
 ### Buttons
 
 Buttons in Bootstrap are pretty simple. The usual `<button>` tag is given a class `btn` and it becomes a Bootstrap button.
-If you want to change the colors, you can **add** (along with the existing `btn`) a class `btn-primary` for blue, `btn-info` for light blue, and `btn-danger` for red.
+If you want to change the colors, you can **add** (along with the existing `btn`) a class `btn-default` for whiteish, `btn-primary` for blue, `btn-info` for light blue, and `btn-danger` for red.
 
 Besides that, the `btn-block` class makes the button span the entire width of the page.
 Example:
@@ -48,3 +48,11 @@ The `img-responsive` tag adjusts the image on the page so that it takes up the w
 ### Spans for inline elements
 
 Regular HTML, just that you can add, for example, `text-danger` as a class of `span`. The word inside `span` becomes red.
+
+### Styling text inputs in forms
+
+```<input class="form-control" type="text" placeholder="Name (required)>```
+
+### Bonus
+
+Bootstrap has a class called well that can create a visual sense of depth for your columns.
